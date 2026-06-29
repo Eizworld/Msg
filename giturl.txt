@@ -1,2 +1,6 @@
 
 https://github.com/Eizworld/Tcpbot_obb54.git
+pip3 install -r requirements.txt
+python3 main.py
+
+git clone https://github.com/Eizworld/Tcpbot_obb54.git
