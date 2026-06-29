@@ -1,3 +1,7 @@
+apt update
+apt install nano -y
+
+
 nano /etc/systemd/system/tcpbot.service
 
 
