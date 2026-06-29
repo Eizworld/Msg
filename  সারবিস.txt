@@ -1,0 +1,27 @@
+nano /etc/systemd/system/tcpbot.service
+
+
+[Unit]
+Description=Free Fire TCP Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/Tcpbot_obb54
+ExecStart=/usr/bin/python3 /Tcpbot_obb54/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+systemctl daemon-reload
+systemctl enable tcpbot
+systemctl start tcpbot
+systemctl stop tcpbot
+systemctl status tcpbot
+
+
+
+
+
