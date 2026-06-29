@@ -10,3 +10,12 @@ apt install python3-pip -y
 
 pip3 install -r requirements.txt
 pip3 install flask
+
+cd /Tcpbot_obb54
+git pull origin main
+python3 main.py
+
+
+cd /Tcpbot_obb54
+pip3 install -r requirements.txt
+python3 main.py
