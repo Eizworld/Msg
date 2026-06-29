@@ -4,3 +4,6 @@ pip3 install -r requirements.txt
 python3 main.py
 
 git clone https://github.com/Eizworld/Tcpbot_obb54.git
+
+apt update
+apt install python3-pip -y
